@@ -1,4 +1,10 @@
 # =============== #
+# Leanplum stuff  #
+# =============== #
+Assets/Plugins/Android/LeanplumUnity.*
+Assets/Plugins/iOS/*
+
+# =============== #
 # Unity generated #
 # =============== #
 Temp/
@@ -6,7 +12,6 @@ Obj/
 UnityGenerated/
 Library/
 Assets/AssetStoreTools*
-*.jar
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
