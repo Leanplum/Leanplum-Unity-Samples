@@ -198,10 +198,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eb5cabe8e8644c05a54d03c72d5297e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AppID: app_sQVuftAvN7IvKsBljMrukEef1AC4actQQxLyVgum7rA
-  ProductionKey: prod_U9TcXPyuh2k1eCyzJVQmzKRDp0eLEbyhb41ozBA2pH8
-  DevelopmentKey: dev_i0oe4y4CYCsWxeriN01pxxAYTC0UP005TBHPkRivTZs
-  AppVersion: 1.2
+  AppID: 
+  ProductionKey: 
+  DevelopmentKey: 
+  AppVersion: 
 --- !u!4 &1818586646
 Transform:
   m_ObjectHideFlags: 0
