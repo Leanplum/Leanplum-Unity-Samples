@@ -70,6 +70,14 @@ public class LeanplumWrapper : MonoBehaviour
 		// and your own server to send notifications through your own ID.
 //		Leanplum.SetGcmSenderIds("123456790abcdef", Leanplum.LeanplumGcmSenderId);
 		#endif
+		
+	Leanplum.Started += delegate(bool success) {
+		Debug.Log("### Leanplum started");
+	};
+
+	Leanplum.VariablesChanged += delegate {
+		Debug.Log("### Variables callback ");
+	};
 
         Leanplum.Start();
     }
